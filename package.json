@@ -1,6 +1,6 @@
 {
     "name": "crm-xml-processor",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "CRM Dynamics XML processor for v9 \u2192 v8 solution downgrade (ZIP-aware)",
     "main": "crm-xml-processor.js",
     "dependencies": {

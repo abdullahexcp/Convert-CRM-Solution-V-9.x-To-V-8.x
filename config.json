@@ -21,7 +21,8 @@
         "ProcessTriggerScope",
         "ExternalTypeName",
         "savedquery",
-        "IsCustomProcessingStepAllowedForOtherPublishers"
+        "IsCustomProcessingStepAllowedForOtherPublishers",
+        "ViewId"
     ],
     "removeAttributes": [
         {
