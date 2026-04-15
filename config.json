@@ -15,9 +15,6 @@
         "IsFilterable",
         "IsRetrievable",
         "IsLocalizable",
-        "IsRetrievable",
-        "IsFilterable",
-        "IsSearchable",
         "IsSolutionAware",
         "HeaderColorCode",
         "ProcessTriggerFormId",
@@ -36,5 +33,12 @@
         }
     ],
     "addObjectTypeCode": true,
-    "entityTypeCodesFile": "data/entity-types.csv"
+    "entityTypeCodes": {
+        "target": "data/entity-types-target.csv",
+        "source": "data/entity-types-source.csv"
+    },
+    "solutionVersion": {
+        "targetVersion": "8.2.0009.0019",
+        "targetPackageVersion": "8.2"
+    }
 }

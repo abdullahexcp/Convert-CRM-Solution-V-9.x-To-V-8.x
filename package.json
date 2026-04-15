@@ -1,15 +1,16 @@
 {
     "name": "crm-xml-processor",
-    "version": "1.0.0",
-    "description": "CRM Dynamics XML processor for version downgrade",
+    "version": "2.0.0",
+    "description": "CRM Dynamics XML processor for v9 \u2192 v8 solution downgrade (ZIP-aware)",
     "main": "crm-xml-processor.js",
     "dependencies": {
-      "xmldom": "^0.6.0"
+        "adm-zip": "^0.5.17",
+        "xmldom": "^0.6.0"
     },
     "bin": {
-      "crm-xml-processor": "./crm-xml-processor.js"
+        "crm-xml-processor": "./crm-xml-processor.js"
     },
     "scripts": {
-      "start": "node crm-xml-processor.js"
+        "start": "node crm-xml-processor.js"
     }
-  }
+}
